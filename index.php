@@ -13,7 +13,7 @@ stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 
 */
 
-var_dump($_GET)
+//var_dump($_GET)
 
 
 ?>
@@ -28,9 +28,11 @@ var_dump($_GET)
 </head>
 <body>
  
-<form action="" method="get">
+<h1>Bad words</h1>
+
+<form action="server.php" method="get">
     <input type="text" name="paragraph" placeholder="insert a paragraph">
-    <input type="text" name="badWords" placeholder="insert a bad words">
+    <input type="text" name="badWords" placeholder="insert the word to be censored">
     <button type="submit">Click</button>
 
 </form>
